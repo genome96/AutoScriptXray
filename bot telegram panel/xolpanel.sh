@@ -4,7 +4,7 @@
 rm -rf xolpanel.sh
 apt update && apt upgrade
 apt install python3 python3-pip git
-git clone https://github.com/givpn/xolpanel.git
+git clone https://github.com/genome96/xolpanel.git
 unzip xolpanel/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
 pip3 install pillow
@@ -30,7 +30,7 @@ sleep 10
 
 cat > /etc/systemd/system/xolpanel.service << END
 [Unit]
-Description=Simple XolPanel - @XolPanel
+Description=Simple XolPanel - @darkanonc
 After=network.target
 
 [Service]
