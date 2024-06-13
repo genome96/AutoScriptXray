@@ -1,4 +1,0 @@
-BOT_TOKEN="6610390099:AAEbhpa_pFeKwPH7pfiOdCbSv2f66u8jo5M" # get this value from @BotFather, required
-ADMIN="999179587" # your telegram ID, required
-DOMAIN="driwwvpn.my.id" # your VPS domain, required
-

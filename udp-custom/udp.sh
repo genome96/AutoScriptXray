@@ -25,7 +25,6 @@ sleep 1
 wget -q -O /usr/bin/usernew https://raw.githubusercontent.com/Genome96/AutoScriptXray/main/udp-custom/ssh/usernew.sh
 wget -q -O /usr/bin/trial https://raw.githubusercontent.com/Genome96/AutoScriptXray/main/udp-custom/ssh/trial.sh
 echo "\e[1;32m Process Download Script Slowdns.. \e[0m"
-useradd server
 wget https://raw.githubusercontent.com/Genome96/AutoScriptXray/main/udp-custom/slowdns/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 sleep 1
 echo "\e[1;32m Process Download Script OpenVPN.. \e[0m"
