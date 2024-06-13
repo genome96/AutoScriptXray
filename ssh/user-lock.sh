@@ -10,7 +10,6 @@ echo " "
 read -p "Input Username you want to lock: " username
 egrep "^$username" /etc/passwd >/dev/null
 if [ $? -eq 0 ]; then
-# proses mengganti passwordnya
 passwd -l $username
 clear
   echo " "

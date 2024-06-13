@@ -30,5 +30,5 @@ case $opt in
 6) clear ; cat /etc/log-create-vless.log ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Anda salah tekan " ; sleep 1 ; m-sshovpn ;;
+*) echo "You pressed it wrong " ; sleep 1 ; m-sshovpn ;;
 esac

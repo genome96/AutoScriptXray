@@ -3,9 +3,9 @@
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
 # Auther  : darkanonc
-# (C) Copyright 2023
+# (C) Copyright 2024
 # =========================================
-# pewarna hidup
+
 BGreen='\e[1;32m'
 NC='\e[0m'
 domain=$(cat /etc/xray/domain)

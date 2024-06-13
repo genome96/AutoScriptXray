@@ -30,5 +30,5 @@ case $opt in
 6) clear ; cat /etc/log-create-trojan.log ; exit ;;
 0) clear ; menu ;;
 x) exit ;;
-*) echo "Anda Salah Tekan" ; sleep 1 ; m-trojan ;;
+*) echo "You pressed it wrong" ; sleep 1 ; m-trojan ;;
 esac

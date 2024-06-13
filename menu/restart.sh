@@ -259,5 +259,5 @@ case $Restart in
                 clear
                 exit
                 ;;
-                *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; restart ;;               
+                *) echo -e "" ; echo "You pressed it wrong" ; sleep 1 ; restart ;;               
         esac

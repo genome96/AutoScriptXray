@@ -3,7 +3,7 @@
 # Edition : Stable Edition 1.0
 # Auther  : darkanon
 # Kuota Habisss
-# (C) Copyright 2023
+# (C) Copyright 2024
 # =========================================
 # pewarna hidup
 BGreen='\e[1;32m'
@@ -20,7 +20,7 @@ rm -rf /root/nsdomain
 rm nsdomain
 
 #input nameserver manual to cloudflare
-#read -rp "Masukkan domain: " -e domain
+#read -rp "Enter domain: " -e domain
 
 read -rp "Enter the Subdomain or Host: " -e sub
 SUB_DOMAIN=${sub}

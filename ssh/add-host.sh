@@ -6,7 +6,7 @@ cekray=`cat /root/log-install.txt | grep -ow "XRAY" | sort | uniq`
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -rp "Add Subdomain/Tambah Subdomain: " -e host
+read -rp "Add Subdomain : " -e host
 echo ""
 if [ -z $host ]; then
 echo "????"

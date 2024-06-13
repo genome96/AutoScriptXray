@@ -13,14 +13,13 @@ NET=$(ip -o $ANU -4 route show to default | awk '{print $5}');
 source /etc/os-release
 ver=$VERSION_ID
 
-#detail nama perusahaan
 country=ID
 state=Kenya
 locality=Nairobi
-organization=none
+organization=ANON
 organizationalunit=none
 commonname=none
-email=crazymemes142@gmail.com
+email=darkanoncc@gmail.com
 
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/genome96/AutoScriptXray/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
@@ -115,7 +114,7 @@ apt install libssl1.0-dev -y
 apt install dos2unix -y
 gem install lolcat
 
-# set time GMT +7
+# set time GMT +3
 ln -fs /usr/share/zoneinfo/Africa/Nairobi /etc/localtime
 
 # set locale
