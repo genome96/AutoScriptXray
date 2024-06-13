@@ -39,7 +39,7 @@ EOF
 cat <<EOF> /etc/systemd/system/ws-http.service
 [Unit]
 Description=Python Proxy
-Documentation=https://github.com/givpn/
+Documentation=https://github.com/darkanonc/
 After=network.target nss-lookup.target
 
 [Service]
@@ -58,7 +58,7 @@ EOF
 cat <<EOF> /etc/systemd/system/ws-ovpn.service
 [Unit]
 Description=Python Proxy
-Documentation=https://github.com/givpn/
+Documentation=https://github.com/darkanonc/
 After=network.target nss-lookup.target
 
 [Service]
